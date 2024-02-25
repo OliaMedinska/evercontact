@@ -8,65 +8,55 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./sass/index.css" />
   </head>
 
   <body>
     <header class="header">
       <div class="container">
-        <div class="header__main-nav">
-          <button class="header__menu-mobile-icon">
-            <svg width="" height="" class="header__icon-mobile">
-              <use href=""></use>
-            </svg>
-          </button>
-          <a href="">evercontact</a>
+        <div class="header__content">
+          <a href="" class="header__menu-mobile-icon" title="Homepage logo">
+            <img
+              src="./img/evercontact-logo.svg"
+              alt="Homepage logo"
+              class="header__menu-mobile-icon"
+              width="193"
+            />
+          </a>
 
           <nav>
-            <ul class="list header__site-nav decoration">
-              <li class="header__item">
-                <a
-                  class="header__link header__link--current header__link-decoration"
-                  href=""
-                  >Home</a
-                >
+            <ul class="header__site-nav decoration">
+              <li>
+                <a class="header__link" href="">Home</a>
               </li>
-              <li class="header__item">
-                <a
-                  class="header__link header__link--current header__link-decoration"
-                  href=""
-                  >Pricing</a
-                >
+              <li>
+                <a class="header__link" href="">Pricing</a>
               </li>
-              <li class="header__item">
-                <a
-                  class="header__link header__link--current header__link-decoration"
-                  href=""
-                  >ContactRescue</a
-                >
+              <li>
+                <a class="header__link" href="">ContactRescue</a>
               </li>
-              <li class="header__item">
-                <a
-                  class="header__link header__link--current header__link-decoration"
-                  href=""
-                  >API</a
-                >
+              <li>
+                <a class="header__link" href="">API</a>
               </li>
             </ul>
           </nav>
 
           <ul class="decoration header__auth-nav">
             <li class="header__item-contact">
-              <a href="" class="header__contact-header">
-                <svg width="" height="" class="header__nav-icon">
-                  <use href=""></use></svg>Login
-              </a>
+              <a href="" class="header__contact-header">Login</a>
             </li>
             <li class="header__item-contact">
-              <a href="" class="header__contact-header">
-                <svg width="" height="" class="header__nav-icon">
-                  <use href=""></use></svg>SMB & Enterprise
-              </a>
+              <a
+                href=""
+                class="header__contact-header header__contact-header--second"
+                >SMB & Enterprise</a
+              >
             </li>
           </ul>
         </div>
@@ -222,7 +212,8 @@
             <li>
               <div>
                 <h3>Essentials</h3>
-                <p><span>per<br/>month</span>
+                <p>
+                  <span>per<br />month</span>
                 </p>
                 <p>$150 billed annually.</p>
                 <p>Usually self-employed workers.</p>
@@ -231,12 +222,23 @@
             </li>
             <li>
               <ul>
-                <li><p>Unlimited Contact Extraction Using Evercontact AI.</p></li>
-                <li><p>Works for Gmail/Google Apps & Outlook/Office365/Exchange.</p></li>
+                <li>
+                  <p>Unlimited Contact Extraction Using Evercontact AI.</p>
+                </li>
+                <li>
+                  <p>
+                    Works for Gmail/Google Apps & Outlook/Office365/Exchange.
+                  </p>
+                </li>
                 <li><p>Real-time updating of contacts.</p></li>
                 <li><p>Unlimited use of our Chrome plug-in.</p></li>
                 <li><p>Email Validation by Evercontact.</p></li>
-                <li><p>Online Dedicated Support via email from 9am to 5PM US ET 5 days a week.</p></li>
+                <li>
+                  <p>
+                    Online Dedicated Support via email from 9am to 5PM US ET 5
+                    days a week.
+                  </p>
+                </li>
               </ul>
             </li>
           </ul>
