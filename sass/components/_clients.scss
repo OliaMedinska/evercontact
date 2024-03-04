@@ -1,0 +1,15 @@
+.clients__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  margin-top: 91px;
+  padding: 20px 0px;
+}
+
+.clients__item {
+  max-height: 73px;
+  height: 100%;
+  width: auto;
+}

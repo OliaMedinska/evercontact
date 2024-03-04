@@ -1,0 +1,28 @@
+.features {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--bckgr-section-color);
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+.features__header {
+  text-align: center;
+  margin-top: 80px;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.features__text {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--text-color-transparent);
+}
+
+.features__accordion {
+  margin-top: 40px;
+}

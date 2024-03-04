@@ -76,19 +76,15 @@
                 Never lose contact again and keep your address book up-to-date,
                 magically creating and updating contacts.
               </p>
-              <div class="hero__form-content">
-                <form class="hero__form">
-                  <label for="label-name">
-                    <input
-                      type="text"
-                      id="label-name"
-                      placeholder="Your Email"
-                      class="hero__form-input"
-                    />
-                  </label>
-                </form>
+              <form class="hero__form-content hero__form-wrapper">
+                <input
+                  type="text"
+                  id="label-name"
+                  placeholder="Your Email"
+                  class="hero__form-input"
+                />
                 <button class="hero__form-btn">Free trial</button>
-              </div>
+              </form>
               <p class="hero__text--second">
                 Get a free 7 day trial, no credit card needed - new accounts
                 only!
@@ -108,27 +104,78 @@
 
       <section class="clients">
         <div class="container">
-          <ul>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
+          <ul class="clients__list">
+            <li>
+              <img
+                class="clients__item"
+                src="./img/airbnb.svg"
+                alt="airbnb"
+                height="73"
+              />
+            </li>
+            <li>
+              <img
+                class="clients__item"
+                src="./img/cisco.svg"
+                alt="cisco"
+                height="73"
+              />
+            </li>
+            <li>
+              <img
+                class="clients__item"
+                src="./img/ebay.svg"
+                alt="ebay"
+                height="73"
+              />
+            </li>
+            <li>
+              <img
+                class="clients__item"
+                src="./img/toyota.svg"
+                alt="toyota"
+                height="73"
+              />
+            </li>
+            <li>
+              <img
+                class="clients__item"
+                src="./img/redfin.svg"
+                alt="redfin"
+                height="73"
+              />
+            </li>
+            <li>
+              <img
+                class="clients__item"
+                src="./img/nasa.svg"
+                alt="nasa"
+                height="73"
+              />
+            </li>
+            <li>
+              <img
+                class="clients__item"
+                src="./img/kaiser.svg"
+                alt="kaiser"
+                height="73"
+              />
+            </li>
           </ul>
         </div>
       </section>
 
       <section>
         <div class="container">
-          <div>
-            <h2>A lost contact is<br />lost revenue</h2>
-            <p>
+          <div class="features">
+            <h2 class="features__header">
+              A lost contact is<br />lost revenue
+            </h2>
+            <p class="features__text">
               Evercontact ensures your team never loses a contact and stays
               productive
             </p>
-            <ul>
+            <ul class="features__accordion">
               <li>New emails hit your inbox</li>
               <li>Evercontact goes to work</li>
               <li>A new contact is created</li>
@@ -139,54 +186,65 @@
         </div>
       </section>
 
-      <section class="contact">
+      <section>
         <div class="container">
-          <h2>Ready to get started?</h2>
-          <p>Don’t waste your time. Send your email right now!</p>
-          <form action="">
-            <label for="label-name">
+          <div class="start">
+            <h2 class="start__header">Ready to get started?</h2>
+            <p class="start__text">
+              Don’t waste your time. Send your email right now!
+            </p>
+            <form class="hero__form-content start__form-wrapper">
               <input
                 type="text"
                 id="label-name"
                 placeholder="Your Email"
-              /><button>Free trial</button>
-            </label>
-          </form>
+                class="hero__form-input"
+              />
+              <button class="hero__form-btn">Free trial</button>
+            </form>
+          </div>
         </div>
       </section>
 
       <section class="benefits">
         <div class="container">
-          <h2>
-            Let Evercontact handle emails, save you and your team hundreds of
-            hours!
+          <h2 class="benefits__header">
+            Let Evercontact handle emails, save<br />
+            and your team hundreds of hours!
           </h2>
-          <div>
-            <div>
-              <h3>Recover lost contacts</h3>
-              <p>
+          <div class="benefits__content">
+            <div class="benefits__info1">
+              <h3 class="benefits__header2">Recover lost contacts</h3>
+              <p class="benefits__text">
                 We also offer a one-time service called
-                <a href="">ContactRescue</a>.
+                <a class="benefits__link">ContactRescue.</a>
                 <br />
                 <br />
-                Rather than extracting contact information from your incoming
-                emails, it recovers contacts from your email archives—as far
-                back as 5 years.
+                Rather than extracting contact information from your<br />
+                incoming emails, it recovers contacts from your email<br />archives—as
+                far back as 5 years.
               </p>
-              <button>
-                ContactRescue
-                <img src="" alt="" />
+              <button class="benefits__btn">
+                <p class="benefits__btn-text">ContactRescue</p>
+                <img
+                  src="./img/polygon.svg"
+                  alt="polygon"
+                  width="20"
+                  class="benefits__btn-icon"
+                />
               </button>
             </div>
 
-            <div>
+            <div class="benefits__info1">
               <img src="" alt="" />
-              <h3>Plays nice with</h3>
-              <p>Our service works with Gmail, Outlook and Office 365.</p>
+              <h3 class="benefits__header2">Plays nice with</h3>
+              <p class="benefits__text">
+                Our service works with Gmail, Outlook and Office 365.
+              </p>
             </div>
           </div>
 
-          <ul>
+          <ul class="benefits__list">
             <li>
               <img src="" alt="" />
               <h3>Explore the away how it works</h3>

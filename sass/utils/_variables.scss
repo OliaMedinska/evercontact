@@ -3,10 +3,15 @@
 
 :root {
   --text-color: #1a1a24;
+  --text-color-transparent: rgb(26, 26, 36, 0.7);
   --second-text-color: #ac9cff;
   --second-text-color-hover: #7c6dc5;
   --second-text-color-transparent: rgba(172, 156, 255, 0.15);
   --border-color: rgb(26, 26, 36, 0.2);
   --placecholder-text: rgb(26, 26, 36, 0.5);
   --light-text-color: #ffffff;
+  --light-text-color-transparent: rgb(255, 255, 255, 0.7);
+  --light-transparent: rgb(255, 255, 255, 0.05);
+  --bckgr-section-color: #f3f3f3;
+  --border-transparent: rgb(196, 196, 196, 0.2);
 }
