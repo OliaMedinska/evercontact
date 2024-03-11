@@ -2,13 +2,58 @@
   background-color: var(--background-color-dark);
 }
 
-.footer__icon {
-  width: 45px;
+.footer__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.footer__item {
+  color: var(--light-text-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  transition: color 1000ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.footer__item:hover, .footer__item:focus {
+  color: var(--light-text-color-transparent);
+  transition: color 1000ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.footer__bottom {
+  border-top: 1px solid var(--border-transparent);
+  margin-top: 58px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.footer__bottom-text {
+  font-size: 14px;
+  color: var(--light-text-color-transparent);
+  font-weight: 500;
+  line-height: 1, 8;
+  transition: color 1000ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.footer__bottom-text:hover, .footer__bottom-text:focus {
+  color: var(--light-text-color);
+  transition: color 1000ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.footer__social-list {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .footer__logo {
-  color: var(--light-text-color);
-  font-size: 24px;
+  margin-top: 112px;
+}
+
+.footer__logo-icon {
+  width: 193px;
 }
 
 .header__content {
@@ -516,7 +561,7 @@ ul.list {
   --text-color: #1a1a24;
   --text-color-transparent: rgb(26, 26, 36, 0.7);
   --second-text-color: #ac9cff;
-  --second-text-color-hover: #7c6dc5;
+  --second-text-color-hover: hsl(250, 43%, 60%);
   --second-text-color-transparent: rgba(172, 156, 255, 0.15);
   --border-color: rgb(26, 26, 36, 0.2);
   --placecholder-text: rgb(26, 26, 36, 0.5);
