@@ -1,3 +1,16 @@
+.footer {
+  background-color: var(--background-color-dark);
+}
+
+.footer__icon {
+  width: 45px;
+}
+
+.footer__logo {
+  color: var(--light-text-color);
+  font-size: 24px;
+}
+
 .header__content {
   display: flex;
   align-items: center;
@@ -515,4 +528,5 @@ ul.list {
   --benefits-header1: rgba(172, 156, 255, 1);
   --benefits-header2: rgba(255, 207, 250, 1);
   --btn-color: rgb(26, 26, 36, 0.4);
+  --background-color-dark: #0b0d17;
 }/*# sourceMappingURL=index.css.map */
