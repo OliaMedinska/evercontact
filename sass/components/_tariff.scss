@@ -1,5 +1,8 @@
 .tariff {
   margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .tariff__container {
@@ -26,6 +29,11 @@
 .tariff__price {
   font-size: 48px;
   font-weight: 900;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 12px 0px;
+  text-wrap: nowrap;
 }
 
 .tariff__price--1 {
@@ -75,8 +83,7 @@
 .tariff__list {
   display: flex;
   flex-direction: column;
-  margin-top: 60px;
-  margin-right: 27px;
+  margin: 60px 27px 60px 0px;
   gap: 15px;
 }
 

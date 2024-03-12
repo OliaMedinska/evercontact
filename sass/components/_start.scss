@@ -12,6 +12,13 @@
   }
 }
 
+.start__bottom {
+  position: relative;
+  z-index: 1;
+  margin-bottom: -150px;
+  background-color: var(--light-text-color);
+}
+
 .start__header {
   font-weight: 900;
   font-size: 68px;

@@ -52,7 +52,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 112px;
+  padding-top: 262px;
 }
 
 .footer__logo-icon {
@@ -243,6 +243,13 @@
   transition: box-shadow 1000ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
+.start__bottom {
+  position: relative;
+  z-index: 1;
+  margin-bottom: -150px;
+  background-color: var(--light-text-color);
+}
+
 .start__header {
   font-weight: 900;
   font-size: 68px;
@@ -262,6 +269,9 @@
 
 .tariff {
   margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .tariff__container {
@@ -288,6 +298,11 @@
 .tariff__price {
   font-size: 48px;
   font-weight: 900;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 12px 0px;
+  text-wrap: nowrap;
 }
 
 .tariff__price--1 {
@@ -334,8 +349,7 @@
 .tariff__list {
   display: flex;
   flex-direction: column;
-  margin-top: 60px;
-  margin-right: 27px;
+  margin: 60px 27px 60px 0px;
   gap: 15px;
 }
 
