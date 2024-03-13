@@ -256,6 +256,10 @@
   rotate: 90deg;
 }
 
+.start-section {
+  background-color: var(--bckgr-section-color);
+}
+
 .start {
   border-radius: 30px;
   margin-top: 50px;
@@ -271,7 +275,7 @@
 .start__bottom {
   position: relative;
   z-index: 1;
-  margin-bottom: -150px;
+  margin: 0px 0px -150px;
   background-color: var(--light-text-color);
 }
 
@@ -390,7 +394,7 @@
 }
 
 .feedback {
-  height: 908px;
+  padding-bottom: 105px;
   background-color: var(--bckgr-section-color);
 }
 
