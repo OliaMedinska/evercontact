@@ -207,20 +207,19 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   background-color: var(--bckgr-section-color);
   border-radius: 30px;
   margin-top: 50px;
 }
 
 .features__header {
-  text-align: center;
   margin-top: 80px;
   font-weight: 700;
   font-size: 48px;
 }
 
 .features__text {
-  text-align: center;
   margin-top: 15px;
   font-weight: 400;
   font-size: 16px;
@@ -229,6 +228,23 @@
 
 .features__accordion {
   margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.features__accordion-item {
+  width: 470px;
+  background-color: var(--light-text-color);
+  padding: 5px 5px;
+  border-radius: 30px;
+}
+
+.feature__accordion-text {
+  border: 1px solid var(--second-text-color);
+  border-radius: 30px;
+  padding: 25px 34px;
 }
 
 .start {
