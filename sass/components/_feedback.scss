@@ -1,0 +1,54 @@
+.feedback {
+  height: 908px;
+  background-color: var(--bckgr-section-color);
+}
+
+.feedback__wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.feedback__header {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.25;
+  margin-top: 90px;
+}
+
+.feedback_list {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.feedback__item {
+  max-width: 370px;
+  background-color: var(--light-text-color);
+  border-radius: 30px;
+  padding: 30px 40px;
+}
+
+.feedback_card-header {
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--text-color);
+  margin-top: 3px;
+}
+
+.feedback_card-text {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 30px;
+}
+
+.feedback__text {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-color);
+  line-height: 1.5;
+  padding-top: 40px;
+  border-top: 1px solid var(--second-text-color-transparent);
+}

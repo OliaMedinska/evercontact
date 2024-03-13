@@ -3,6 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
+  margin-bottom: 153px;
 }
 
 .tariff__container {
@@ -48,7 +49,7 @@
 }
 
 .tariff__btn {
-  padding: 10px 31.5px;
+  padding: 10px 22px;
   background-color: var(--second-text-color);
   color: var(--light-text-color);
   margin-right: 3px;
