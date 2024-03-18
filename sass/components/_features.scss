@@ -36,15 +36,36 @@
   background-color: var(--light-text-color);
   padding: 5px 5px;
   border-radius: 30px;
+
+  &:hover,
+  &:focus {
+    background-color: var(--second-text-color);
+  }
 }
 
-.feature__accordion-text {
+.feature__accordion-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  width: 100%;
   border: 1px solid var(--second-text-color);
   border-radius: 30px;
   padding: 25px 34px;
   font-size: 24px;
   font-weight: 900;
   color: var(--second-text-color);
+
+  &:hover,
+  &:focus {
+    border-color: var(--light-text-color);
+    color: var(--light-text-color);
+  }
+}
+
+.feature__accordion-btn:hover .feature__accordion-polygon,
+.feature__accordion-btn:focus .feature__accordion-polygon {
+  fill: var(--light-text-color);
 }
 
 .feature__accordion-icon {
@@ -72,4 +93,11 @@
   left: 250px;
   bottom: 159px;
   box-shadow: 25px 30px 88px -16px var(--btn-color);
+}
+
+.feature__accordion-polygon {
+  width: 20px;
+  height: 20px;
+  fill: var(--second-text-color);
+  rotate: 90deg;
 }
